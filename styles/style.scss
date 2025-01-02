@@ -36,13 +36,15 @@ body {
   max-height: 400px;
   overflow: scroll;
 
-  img {
+  #tick-image,
+  #delete-image,
+  #edit-image {
     width: 40px;
     padding-left: 10px;
     cursor: pointer;
   }
 
-  >div {
+  .task {
     padding: 10px;
     display: flex;
     border-radius: 3px;
